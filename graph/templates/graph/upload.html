@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if title %}
+    <h1 class="text-center">{{title}}</h1>
+{% endif %}
+
+<form class="col-12 text-center" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+</form>
+
+{% endblock %}

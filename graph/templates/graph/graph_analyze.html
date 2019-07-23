@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load plotly_dash %}
+
+{% plotly_header %}
+
+{% block content %}
+
+    <h1 class="rainbow-text">ANALYZE THAT RAINBOW TEXT</h1>
+
+    {% plotly_direct name="SimpleExample" %}
+
+{% plotly_footer %}
+
+{% endblock %}

@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-size:100%;
+    background-image: url("../img/background.jpg");
+    color: #f2f2f2;
+}
+
+path {
+    fill:	#f2f2f2;
+}
+.DateInput, .DateInput_input, .SingleDatePickerInput, .DateRangePickerInput  {
+    background-color:transparent;
+    border-width:2px;
+}
+
+::placeholder, .DateInput_input {
+    color: #f2f2f2;
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+a {
+    color: #f2f2f2;
+    font-size: 2rem;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card {
+    background-color: #9f63df;
+}

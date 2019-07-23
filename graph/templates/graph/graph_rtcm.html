@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load plotly_dash %}
+
+{% plotly_header %}
+
+
+{% block content %}
+
+    <h1 class="col-2 rainbow-text">RTCM</h1>
+
+    {% plotly_direct name="test" %}
+
+{% plotly_footer %}
+
+{% endblock %}

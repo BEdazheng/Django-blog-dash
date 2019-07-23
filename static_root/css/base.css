@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+
+
+.container {
+    color: blue;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
